@@ -9,12 +9,12 @@ Requirements:
 
 To install:
 ```
-pip install email_hunter_python
+pip install email-hunter-python
 ```
 
 To update:
 ```
-pip install --upgrade email_hunter_python
+pip install --upgrade email-hunter-python
 ```
 
 ## Usage
