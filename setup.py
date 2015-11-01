@@ -9,7 +9,7 @@ if os.path.exists('README.txt'):
 
 setup(
     name='email_hunter_python',
-    version='1.0.0',
+    version='1.0.1',
     description=short_description,
     long_description=long_description,
     license='MIT',
