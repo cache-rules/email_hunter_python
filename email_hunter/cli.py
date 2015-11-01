@@ -113,7 +113,7 @@ def exist(client: EmailHunterClient, email, print_header=True, is_file_output=Fa
         else:
             print('Email:\t{}'.format(email))
             print('Exist:\t{}'.format(exist_))
-            print('Sources:\t:{}'.format(json.dumps(sources, indent=2)))
+            print('Sources:\t{}'.format(json.dumps(sources, indent=2)))
 
 
 def handle_search_file(client: EmailHunterClient, reader: DictReader):
