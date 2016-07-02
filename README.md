@@ -47,7 +47,7 @@ client.search('google.com', offset=1)
 
 You can also change type (personal or generic):
 ```python
-client.search('google.com', type='personal')
+client.search('google.com', type_='personal')
 ```
 
 You can generate:
