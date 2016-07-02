@@ -4,7 +4,7 @@
 ## Installation
 Requirements:
 
-* Python 3 (because it's 2015)
+* Python 3 (because it's 2016)
 
 
 To install:
