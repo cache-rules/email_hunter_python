@@ -4,6 +4,6 @@ import email_hunter.cli as cli
 
 __title = 'EmailHunter'
 __author__ = 'Alan Vezina'
-__version__ = '1.0.1'
+__version__ = '1.1.0'
 __license__ = 'MIT'
 __all__ = ['EmailHunterClient', 'cli']
