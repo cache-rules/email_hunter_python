@@ -57,3 +57,15 @@ class EmailHunterClient:
         data = self._make_request(url, payload)
 
         return data['email'], data['score']
+
+    def verify(self, email):
+        """
+        Checks if a given email address is deliverable and has been found on the internet.
+        :param email: the email address you want to check
+        :return: Dict
+        """
+        url = self.base_url + 'verify'
+        payload = {'api_key': self.api_key, 'email': email}
+        data = self._make_request(url, payload)
+
+        return data
